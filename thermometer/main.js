@@ -25,6 +25,6 @@ c2f.addEventListener("click", () => {
 f2c.addEventListener("click", () => {
   const fahrenheit = Number(fahrenheitInput.value);
   if (fahrenheit) {
-    celciusInput.value = celciusToFarenheit(fahrenheit);
+    celciusInput.value = fahrenheitToCelcius(fahrenheit);
   }
 });
