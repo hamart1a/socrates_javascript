@@ -1,0 +1,23 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 20%;
+    height: 20%;
+    background-color: cadetblue;
+    border: 2px solid rgb(48, 82, 83);
+}
+
+.dotted_border {
+    border-width: 10px;
+    border-style: dotted;
+}
+
+.dark_mode {
+    background-color: black;
+}
