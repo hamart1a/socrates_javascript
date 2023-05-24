@@ -7,10 +7,23 @@ body {
 }
 
 .box {
-    width: 20%;
-    height: 20%;
+    width: 15rem;
+    height: 15rem;
     background-color: cadetblue;
     border: 2px solid rgb(48, 82, 83);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.awesome_box {
+    animation: awesome-animation 1s infinite ease;
+}
+
+@keyframes awesome-animation {
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 .dotted_border {
