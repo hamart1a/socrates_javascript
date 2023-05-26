@@ -13,9 +13,27 @@
  *   *****  
  *  ******* 
  * *********
+ * 
+ *    2 1         4 1
+ *    1 3         3 3
+ *    0 5         2 5
+ *                1 7
+ *                0 9
+ * 
 */
 function pyramid(row) {
-
+    console.log("시작");
+    output = '';
+    for(let i =0; i<row; i++){
+        for(let j=row-i; j>0; j--){
+            output += ' ';
+        }
+        for(let k=0; k<2*i+1; k++){
+            output += '*';
+        }
+        output += '\n';
+    }
+    console.log(output);
 }
 
 pyramid(3);

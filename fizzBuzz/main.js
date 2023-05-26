@@ -21,7 +21,23 @@
  *  Buzz
  */
 function fizzBuzz() {
-    
+    output = ''
+    for(let i=0; i<100;i++){
+        if(i%3 === 0 && i%5 === 0){
+            output += 'FizzBuzz'
+        }
+        else if(i%3 === 0){
+            output += 'Fizz';
+        }
+        else if(i%5 === 0){
+            output += 'Buzz';
+        }
+        else {
+            output += i+"";
+        }
+        output += '\n';
+    }
+    console.log(output)
 }
 
 fizzBuzz();
